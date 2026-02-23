@@ -1,0 +1,224 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif, 'Poppins-Regular';
+}
+
+.content__container {
+    /* background-image: url('./img/avid__play.jpeg'); */
+    background: rgb(51, 116, 234);
+    background: linear-gradient(137deg, rgba(51, 116, 234, 1) 0%, rgba(126, 54, 241, 1) 100%);
+    min-height: 100vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+    padding: 15px;
+}
+
+.wrapper__login {
+    width: 500px;
+    margin: 0 auto;
+    padding: 60px 50px;
+    background: #ffffff;
+    border-radius: 12px;
+}
+
+.wrapper__signup {
+    width: 1000px;
+    margin: 0 auto;
+    padding: 30px 50px;
+    background: #ffffff;
+    border-radius: 12px;
+}
+
+
+
+.logo {
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+
+.login__btn {
+    margin-bottom: 20px;
+}
+
+.login_btn2 {
+    border-radius: 20px;
+    font-size: 14px;
+    border: solid 1px #3374ea;
+    background-color: #fff;
+    color: #000000;
+    height: 40px;
+    width: 100%;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 500;
+    cursor: pointer;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 40px;
+    padding: 0px;
+}
+
+.login_btn2:hover {
+    color: white;
+    background: linear-gradient(to right, #3374ea 0%, #7e36f1 100%);
+    -webkit-box-shadow: 0 0 62px 0 rgb(0 0 0 / 10%);
+    box-shadow: 0px 1px 10px 0px rgb(0 0 0 / 10%);
+}
+
+.login_btn {
+
+    border-radius: 20px;
+        font-size: 14px;
+        border: solid 1px #3374ea;
+        background: linear-gradient(to right, #3374ea 0%, #7e36f1 100%);
+        color: #fff;
+        height: 40px;
+        width: 100%;
+        font-size: 12px;
+        text-transform: uppercase;
+        font-weight: 500;
+        cursor: pointer;
+        display: inline-block;
+        text-align: center;
+        vertical-align: middle;
+        line-height: 40px;
+        padding: 0px;
+}
+
+.login_btn:hover {
+
+    border-radius: 20px;
+    font-size: 14px;
+    border: solid 1px #3374ea;
+    background: linear-gradient(to right, #3374ea 0%, #7e36f1 100%);
+    color: #fff;
+    height: 40px;
+    width: 100%;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 500;
+    cursor: pointer;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 40px;
+    padding: 0px;
+}
+
+.mobile_login_input {
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 1px solid #ededed;
+    border-radius: 0px;
+    margin: 0 auto;
+    margin-bottom: 0px;
+    text-align: left;
+    font-size: 14px;
+    height: 30px;
+    color: #000000;
+    font-weight: 500;
+    padding: 0px;
+    background: transparent;
+}
+
+.mobile_login_input:hover,
+.mobile_login_input:focus {
+    border-color: #396eea;
+}
+
+.form-control:focus {
+    outline: 0;
+    box-shadow: none;
+}
+
+.form_labell{
+    text-transform: uppercase;
+    font-size: 12px;
+    color: #c3c3c3;
+    font-weight: 500;
+    margin-bottom: 0px !important;
+}
+
+
+.signup__select_grp .select2-container--default .select2-selection--single {
+    border: none;
+    border-bottom: 1px solid #ededed;
+    border-radius: 0;
+    min-height: 40px;
+}
+
+.forget_label{
+    text-align: right;
+    font-size: 14px;
+    margin: 0px 0px 20px 0px;
+    font-weight: 500;
+    color: black;
+        
+}
+
+.field-icon {
+    position: absolute;
+    z-index: 1;
+    right: 15px;
+    bottom: 12px;
+    font-size: 14px;
+    color: #a1a1a1;
+    cursor: pointer;
+}
+
+.toggle-password{
+    position: relative;
+        top: -27px;
+        font-size: 18px;
+        left: 380px;
+}
+
+.signup__conditions {
+    font-size: 13px;
+    margin: 0;
+}
+
+.terms__sign {
+    color: #1851ef;
+    font-weight: bold;
+    margin-left: 5px;
+    font-size: 13px;
+    text-decoration: none;
+}
+
+.signup__payTax {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0px;
+    align-items: center;
+}
+
+.sign__tax {
+    margin-right: 12px;
+    color: #c7c3c3;
+    font-size: 12px;
+    font-weight: 400;
+    margin-bottom: 0px;
+}
+
+.sign__radio {
+    position: inherit;
+}
+
+.bt__signin {
+    margin-bottom: 0px;
+}

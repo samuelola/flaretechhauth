@@ -75,27 +75,27 @@ class LoginController extends Controller
 
                 // dd($response->body());
 
-                $dateAfter = DB::table('sub_count')
-                                 ->where('user_id',$res->user->id)
-                                 ->orderBy('id','desc')
-                                 ->first();
-                if(!is_null($dateAfter)){
-                    $d_date = Carbon::parse($dateAfter->expires_at)->format("Y-m-d");
-                    if(now()->toDateString() == $d_date){
-                        DB::table('users')->where('id',$res->user->id)->update([
-                            'role_id'=> UserStatus::Guest
-                        ]);
+                // $dateAfter = DB::table('sub_count')
+                //                  ->where('user_id',$res->user->id)
+                //                  ->orderBy('id','desc')
+                //                  ->first();
+                // if(!is_null($dateAfter)){
+                //     $d_date = Carbon::parse($dateAfter->expires_at)->format("Y-m-d");
+                //     if(now()->toDateString() == $d_date){
+                //         DB::table('users')->where('id',$res->user->id)->update([
+                //             'role_id'=> UserStatus::Guest
+                //         ]);
 
-                        DB::table('sub_count')
-                            ->where('user_id',$res->user->id)
-                            ->orderBy('id','desc') 
-                            ->update([
-                                'status'=> 'notactive'
-                            ]);
-                    }else{
+                //         DB::table('sub_count')
+                //             ->where('user_id',$res->user->id)
+                //             ->orderBy('id','desc') 
+                //             ->update([
+                //                 'status'=> 'notactive'
+                //             ]);
+                //     }else{
                         
-                    }
-                }
+                //     }
+                // }
                 
                 // check for wallet
                 $exist_user = DB::table('users')->where('id',$res->user->id)->first();

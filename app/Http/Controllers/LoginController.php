@@ -36,10 +36,9 @@ class LoginController extends Controller
     public function loginn(LoginRequest $request)
     {
         
-
         $credentials = $request->validated();
         // Check if remember checkbox is checked
-        $remember = $request->has('remember');
+        //$remember = $request->has('remember');
         $loginService = (new AuthService())->loginUser($credentials);
         if($loginService == false){
             $url = config('app.url');
@@ -73,29 +72,7 @@ class LoginController extends Controller
                     'token_path' => $hash,
                 ]);
 
-                // dd($response->body());
-
-                // $dateAfter = DB::table('sub_count')
-                //                  ->where('user_id',$res->user->id)
-                //                  ->orderBy('id','desc')
-                //                  ->first();
-                // if(!is_null($dateAfter)){
-                //     $d_date = Carbon::parse($dateAfter->expires_at)->format("Y-m-d");
-                //     if(now()->toDateString() == $d_date){
-                //         DB::table('users')->where('id',$res->user->id)->update([
-                //             'role_id'=> UserStatus::Guest
-                //         ]);
-
-                //         DB::table('sub_count')
-                //             ->where('user_id',$res->user->id)
-                //             ->orderBy('id','desc') 
-                //             ->update([
-                //                 'status'=> 'notactive'
-                //             ]);
-                //     }else{
-                        
-                //     }
-                // }
+               
                 
                 // check for wallet
                 $exist_user = DB::table('users')->where('id',$res->user->id)->first();
@@ -120,26 +97,7 @@ class LoginController extends Controller
                 }
                 
                   $exist_user_count = DB::table('user_statistics')->where('user_id',$res->user->id)->first();
-                //  $today = Carbon::today();
-                //  if(is_null($exist_user_count)){
-                //     $r = new UserStatistics ();
-                //     $r->user_id = $res->user->id;
-                //     $r->login_count = 5;
-                //     $r->login_date = $today;
-                //     $r->save();
-
-                //  }else{
-                //     if($exist_user_count->login_date == now()->toDateString()){
-                   
-                //     }else{
-
-                //         $r = UserStatistics::where('user_id',$res->user->id)->first();
-                //         $r->login_date = Carbon::today();
-                //         $r->login_count += 5;
-                //         $r->save();
-                //     }
-                    
-                //  }  
+                
                  
                  $link = 'FLARETECH'.strtoupper(Str::random(9));
                  if(is_null($exist_user_count->referral_code) || empty($exist_user_count->referral_code)){
@@ -149,6 +107,7 @@ class LoginController extends Controller
                  
                  $baseUrl = config('app.artistuser_link');
                  return redirect()->to("{$baseUrl}/dashboardd?pt=$hash&message=true");
+                 
             }
               
         }

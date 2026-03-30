@@ -108,8 +108,8 @@
                     </div>
                     <div class="d-flex justify-content-between align-items-center mt-3">
 
-                        <div class="form-check m-0">
-                            <input class="form-check-input" type="checkbox" name="remember" id="remember"
+                        <div class="form-check m-0 d-flex align-items-center">
+                            <input class="form-check-input me-2" type="checkbox" name="remember" id="remember"
                                 {{ old('remember') ? 'checked' : '' }}>
                             <label class="form-check-label" for="remember">
                                 Remember Me

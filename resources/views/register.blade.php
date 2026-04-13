@@ -215,7 +215,7 @@
                             <input type="checkbox" class="form-check-input border border-neutral-300 mt-4" name="terms"  value="1" id="condition">
                             <label class="form-check-label text-sm" for="condition">
                                 By creating an account means you agree to the 
-                                <a href="#" data-bs-toggle="modal" data-bs-target="#termsModal" class="text-primary-600 fw-semibold">Terms & Conditions</a>
+                                <a href="#" data-bs-toggle="modal" data-bs-target="#termsModal" class="text-primary-600 fw-semibold">End User Agreement</a>
                                  and our 
                                
                                 <a href="#" data-bs-toggle="modal" data-bs-target="#privacyModal" class="text-primary-600 fw-semibold">Privacy Policy</a>
@@ -275,7 +275,7 @@
       <!-- Header -->
       <div class="modal-header bg-white border-bottom px-4 py-3">
         <div class="w-100 text-center">
-          <h5 class="modal-title fw-bold mb-0">Terms & Conditions</h5>
+          <h5 class="modal-title fw-bold mb-0">End User Agreement</h5>
         </div>
         <button type="button" class="btn-close position-absolute end-0 me-3" data-bs-dismiss="modal"></button>
       </div>
@@ -285,239 +285,215 @@
              
         <div class="service-agreement">
 
-        <p style="text-align:center;" class="mt-3"><strong>FLARETECHMUSIC PLATFORM SERVICE AGREEMENT</strong></p>
+        <p style="text-align:center;" class="mt-3"><strong>FlareTechMusic End-User Agreement</strong></p>
 
-        <p><strong>Effective Date:</strong> January 1, 2026</p>
+         
+            <!-- <p>Effective Date: January 1, 2026</p>
+            <p>Last Updated: March 31, 2026</p> -->
 
-        <p>
-            This Service Agreement (“Agreement”) governs access to and use of the FlareTechMusic platform and related services provided by Flare Tech Nigeria Limited.
-        </p>
+            <p>Welcome to FlareTechMusic, a platform operated by Flare Tech Nigeria Ltd (“FlareTech,” “we,” “our,” or “us”).</p>
 
-        <p>
-            This Agreement is made available electronically and shall become legally binding upon electronic acceptance by the subscribing estate, client, or authorised administrator through the FlareTechMusic platform, including but not limited to selecting or ticking the “I Agree”, “Accept”, or “Accept Terms and Conditions” checkbox, or by otherwise accessing or using the platform.
-        </p>
+            <p>By creating an account or using our platform (www.flaretechmusic.com), you agree to this End-User Agreement (“Agreement”), along with our Terms of Service and Privacy Policy. If you do not agree, please do not use the platform.</p>
 
-        <p>
-            By accepting this Agreement electronically, the subscribing client or authorised representative confirms that they have read, understood, and agree to be bound by its terms.
-        </p>
-
-        <hr />
-
-        <h3>1. Parties and Interpretation</h3>
-        <ul>
-            <li>Flare Tech Nigeria Limited (“FlareTechMusic”) is a company duly incorporated under the laws of the Federal Republic of Nigeria and the owner/operator of the FlareTechMusic platform.</li>
-            <li>The Client refers to any individual, label, estate, company, or authorised representative accepting this Agreement.</li>
-        </ul>
-
-        <p>Flare Tech and the Client may be referred to individually as a “Party” and collectively as the “Parties.”</p>
-
-        <h3>2. Roles & Responsibilities</h3>
-
-        <h4>2.1 FlareTechMusic’s Responsibilities</h4>
-        <ul>
-            <li>Provide access to the FlareTechMusic platform and its features</li>
-            <li>Facilitate content distribution to Digital Service Providers (DSPs)</li>
-            <li>Provide royalty reporting based on third-party data</li>
-            <li>Maintain reasonable system functionality and security</li>
-            <li>Provide support services where applicable</li>
-        </ul>
-
-        <h4>2.2 Client Responsibilities</h4>
-        <ul>
-            <li>Ensure all uploaded content is lawful and rights-cleared</li>
-            <li>Maintain accurate account and payment information</li>
-            <li>Comply with all applicable copyright, tax, and regulatory obligations</li>
-            <li>Use the platform in accordance with this Agreement</li>
-        </ul>
-
-        <h3>3. Service Availability & Uptime</h3>
-        <p>Flare Tech shall use commercially reasonable efforts to ensure platform availability.</p>
-
-        <p>However, the Client acknowledges that:</p>
-        <ul>
-            <li>Services may be interrupted due to maintenance, upgrades, or third-party failures</li>
-            <li>Flare Tech does not guarantee uninterrupted or error-free operation</li>
-        </ul>
-
-        <h3>4. Fees, Billing & Payment Enforcement</h3>
-
-        <h4>4.1 Fees Payable</h4>
-        <p>The Client agrees to pay all applicable:</p>
-        <ul>
-            <li>Subscription fees</li>
-            <li>Distribution or service charges</li>
-            <li>Licensing or SaaS fees</li>
-        </ul>
-        <p>as specified on the platform or in a separate agreement.</p>
-
-        <h4>4.2 Billing & Payment Terms</h4>
-        <ul>
-            <li>Payments shall be made in advance unless otherwise agreed</li>
-            <li>Failure to pay may result in restricted access</li>
-        </ul>
-
-        <h4>4.3 Late Payment, Grace Period & Enforcement</h4>
-        <ul>
-            <li>Late Payment Charges – FlareTechMusic may apply penalties or interest where applicable.</li>
-            <li>Restriction of Platform Features – Access to certain features may be limited.</li>
-            <li>Suspension of Services – Continued default may result in suspension.</li>
-            <li>Termination for Persistent Default – Flare Tech may terminate the Agreement.</li>
-            <li>Recovery of Outstanding Amounts – Flare Tech reserves the right to recover unpaid sums.</li>
-            <li>No Waiver – Failure to enforce rights does not waive them.</li>
-            <li>Conditional Platform Access – Access may be restored upon settlement of outstanding obligations.</li>
-        </ul>
-
-        <h3>5. Subscription Plans, Wallet & Payments</h3>
-        <ul>
-            <li>Certain features require active subscriptions.</li>
-            <li>Subscriptions may be subject to auto-renewal unless cancelled.</li>
-        </ul>
-
-        <p><strong>Wallet</strong></p>
-        <ul>
-            <li>The platform provides a wallet for transactions</li>
-            <li>A minimum non-withdrawable balance of ₦3,000 (or $2.20) must be maintained</li>
-            <li>Flare Tech may revise this threshold due to economic or operational factors</li>
-        </ul>
-
-        <h3>6. Royalties, Revenue & Payment Structure</h3>
-        <ul>
-            <li>Flare Tech may collect royalties on behalf of the Client from DSPs and partners</li>
-            <li>Payments are based strictly on:
+            <h3>1. Eligibility and Your Account</h3>
             <ul>
-                <li>Verified reports</li>
-                <li>Actual Net Revenue received</li>
+            <li>- You must be at least 18 years old to use FlareTechMusic.</li>
+            <li>- You agree to provide accurate and up-to-date information.</li>
+            <li>- You are responsible for your account and all activities under it.</li>
+            <li>- Keep your login details secure and notify us if your account is compromised.</li>
             </ul>
-            </li>
-        </ul>
 
-        <p><strong>Deductions</strong></p>
-        <ul>
-            <li>Platform fees and commissions</li>
-            <li>Third-party deductions (DSPs, aggregators)</li>
-            <li>Taxes and regulatory charges</li>
-        </ul>
+            <h3>2. Use of the Platform</h3>
+            <p>You agree to use FlareTechMusic responsibly and legally. You must not:</p>
+            <ul>
+            <li>- Upload illegal, harmful, or misleading content</li>
+            <li>- Attempt to hack, disrupt, or misuse the platform</li>
+            <li>- Misrepresent ownership of content</li>
+            </ul>
+            <p>FlareTechMusic may suspend or remove accounts that violate these rules.</p>
 
-        <p><strong>Disputes</strong></p>
-        <p>FlareTechMusic may withhold royalties in the event of disputes until resolution or a legal determination.</p>
+            <h3>3. Your Content and Rights</h3>
+            <ul>
+            <li>- You own your content (music, artwork, metadata, etc.).</li>
+            <li>- By uploading content, you give FlareTechMusic permission to host, distribute, promote, and monetize it on your behalf.</li>
+            <li>- In some cases, this license may be exclusive for distribution purposes.</li>
+            <li>- If FlareTechMusic offers to acquire your content, you will be required to approve a separate agreement before any ownership transfer.</li>
+            </ul>
+            <p>You confirm that:</p>
+            <ul>
+            <li>- You own the rights to your content</li>
+            <li>- Your content does not infringe on anyone else’s rights</li>
+            </ul>
 
-        <p><strong>No Guarantee</strong></p>
-        <p>Flare TechMusic does not guarantee revenue, performance, or payment timing.</p>
+            <h3>4. Distribution and Promotion</h3>
+            <ul>
+            <li>- FlareTechMusic distributes your content to streaming platforms and digital stores.</li>
+            <li>- We may use your name, artwork, and content for promotion.</li>
+            <li>- Distribution depends on third-party platforms, and their rules may affect availability.</li>
+            </ul>
 
-        <h3>7. Non-Refundability</h3>
-        <p>All fees paid are non-refundable, except where required by law or expressly agreed in writing.</p>
+            <h3>5. Royalties, Payments, and Withdrawals</h3>
+            <ul>
+            <li>- You earn royalties based on how your content performs on partner platforms.</li>
+            <li>- You must withdraw your earnings directly from your dashboard.</li>
+            <li>- Payments are made based on verified reports and actual revenue received by FlareTechMusic.</li>
+            </ul>
 
-        <h3>8. Intellectual Property Rights</h3>
-        <ul>
-            <li>The Client retains ownership of its content</li>
-            <li>The Client grants Flare Tech an exclusive license for distribution and monetisation</li>
-        </ul>
+            <p>Important Notes:</p>
+            <ul>
+            <li>- Payments follow a payout schedule</li>
+            <li>- Earnings are calculated on a Net Revenue basis (after deductions)</li>
+            <li>- FlareTechMusic may correct errors or adjust balances when necessary</li>
+            </ul>
 
-        <p>FlareTechMusic retains ownership of:</p>
-        <ul>
-            <li>Platform technology</li>
-            <li>Software</li>
-            <li>Branding and proprietary systems</li>
-        </ul>
+            <p>Deductions</p>
+            <p>Your earnings may be reduced by:</p>
+            <ul>
+            <li>- Platform service fees or commissions</li>
+            <li>- DSP charges and processing fees</li>
+            <li>- Taxes and regulatory deductions</li>
+            </ul>
 
-        <h3>9. End-User Obligations, Access Control & Platform Protection</h3>
-        <ul>
-            <li>End-User Status – Users operate under the Client’s authority where applicable.</li>
-            <li>Payment-Linked Access – Access may depend on active payment status.</li>
-            <li>No Circumvention – Users must not bypass platform controls.</li>
-            <li>Platform Role – Flare Tech acts solely as a technology intermediary.</li>
-            <li>User Responsibility – All activities remain the Client’s responsibility.</li>
-        </ul>
+            <p>Disputes</p>
+            <p>If there is a copyright or royalty dispute, FlareTechMusic may:</p>
+            <ul>
+            <li>- Withhold payments</li>
+            <li>- Pause distribution</li>
+            </ul>
+            <p>until the issue is resolved.</p>
 
-        <h3>10. Platform Protection Rights</h3>
-        <ul>
-            <li>Monitor usage</li>
-            <li>Remove content</li>
-            <li>Suspend accounts</li>
-            <li>Enforce compliance</li>
-        </ul>
+            <p>No Guarantees</p>
+            <p>FlareTechMusic does not guarantee any level of income or payment timing.</p>
 
-        <h3>11. Platform Exclusivity</h3>
-        <p>Where applicable, content distributed via FlareTechMusic may be subject to exclusive platform distribution terms, as agreed.</p>
+            <h3>6. Wallet and Payments System</h3>
+            <ul>
+            <li>- Your FlareTechMusic wallet allows you to store funds and make transactions.</li>
+            <li>- A minimum balance of ₦3,000 (or $2.20) must remain in your wallet.</li>
+            <li>- This balance can be used for subscriptions or services, but cannot be withdrawn.</li>
+            </ul>
 
-        <h3>12. Non-Circumvention</h3>
-        <p>The Client agrees not to bypass FlareTechMusic to directly engage with its partners, DSPs, or business relationships introduced through the platform.</p>
+            <p>FlareTechMusic may update this minimum due to:</p>
+            <ul>
+            <li>- Exchange rates</li>
+            <li>- Inflation</li>
+            <li>- Platform updates</li>
+            </ul>
 
-        <h3>13. Prohibited Uses</h3>
-        <ul>
-            <li>Engage in artificial streaming or fraud</li>
-            <li>Upload infringing content</li>
-            <li>Misuse platform infrastructure</li>
-        </ul>
+            <h3>7. Subscription Plans and Auto-Renewal</h3>
+            <ul>
+            <li>- Some features require a subscription plan.</li>
+            <li>- Royalty sharing may depend on your selected plan.</li>
+            </ul>
 
-        <p>Violations may result in termination, forfeiture of earnings, and legal action.</p>
+            <p>Auto-Renewal</p>
+            <ul>
+            <li>- Subscriptions may renew automatically</li>
+            <li>- You can cancel before the renewal date to avoid charges</li>
+            </ul>
 
-        <h3>14. Audit & Compliance Rights</h3>
-        <p>FlareTechMusic reserves the right to audit usage, transactions, and compliance with this Agreement.</p>
+            <p>FlareTechMusic may adjust pricing or plans due to economic or operational changes.</p>
 
-        <h3>15. Survival of Obligations</h3>
-        <ul>
-            <li>Intellectual Property</li>
-            <li>Confidentiality</li>
-            <li>Payment Obligations</li>
-            <li>Indemnity</li>
-            <li>Limitation of Liability</li>
-        </ul>
+            <h3>8. Artificial Streaming and Fraud</h3>
+            <p>You must not:</p>
+            <ul>
+            <li>- Use bots, fake streams, or click farms</li>
+            <li>- Manipulate streaming numbers or engagement</li>
+            </ul>
 
-        <h3>16. Indemnity</h3>
-        <p>The Client agrees to indemnify and hold Flare Tech harmless from any claims arising from:</p>
-        <ul>
-            <li>Content uploaded</li>
-            <li>Breach of this Agreement</li>
-            <li>Third-party claims</li>
-        </ul>
+            <p>If detected:</p>
+            <ul>
+            <li>- Your content may be removed</li>
+            <li>- Your account may be suspended</li>
+            <li>- Your royalties may be withheld</li>
+            </ul>
 
-        <h3>17. Assignment & Change of Control</h3>
-        <h4>17.1 Assignment by Client</h4>
-        <p>The Client may not assign this Agreement without prior written consent.</p>
+            <p>FlareTechMusic is not responsible for penalties imposed by DSPs.</p>
 
-        <h4>17.2 Assignment by Flare Tech</h4>
-        <p>FlareTechMusic may assign this Agreement without restriction.</p>
+            <h3>9. Reward Coins (MVP Stage)</h3>
+            <ul>
+            <li>- Reward coins are for platform engagement only</li>
+            <li>- They are not money, crypto, or investments</li>
+            <li>- They have no monetary value unless officially announced</li>
+            </ul>
 
-        <h3>18. Limitation of Liability</h3>
-        <p>FlareTechMusic shall not be liable for indirect or consequential damages.</p>
-        <p>Total liability shall not exceed fees paid in the last 12 months.</p>
+            <p>FlareTechMusic is not responsible for any misunderstanding about their value.</p>
 
-        <h3>19. Independent Contractor Relationship</h3>
-        <ul>
-            <li>Partnership</li>
-            <li>Joint venture</li>
-            <li>Employment relationship</li>
-        </ul>
+            <h3>10. Content Review and Approval</h3>
+            <ul>
+            <li>- All uploads are subject to review</li>
+            <li>- Content may be approved, delayed, or rejected</li>
+            </ul>
 
-        <h3>20. Force Majeure</h3>
-        <p>FlareTechMusic shall not be liable for failure or delay due to events beyond its control, including:</p>
-        <ul>
-            <li>System outages</li>
-            <li>Regulatory changes</li>
-            <li>Third-party failures</li>
-        </ul>
+            <p>Timeline</p>
+            <ul>
+            <li>- Approval may take at least 2 weeks or more</li>
+            </ul>
 
-        <h3>21. Governing Law & Dispute Resolution</h3>
-        <p>The laws of the Federal Republic of Nigeria shall govern this Agreement.</p>
-        <p>Disputes shall:</p>
-        <ol>
-            <li>First, be resolved amicably</li>
-            <li>Then referred to arbitration in Lagos, Nigeria</li>
-        </ol>
+            <p>FlareTechMusic does not guarantee release dates and is not liable for delays.</p>
 
-        <h3>22. Severability</h3>
-        <p>If any provision is invalid, the remaining provisions shall remain enforceable.</p>
+            <h3>11. Copyright and Responsibility</h3>
+            <p>You are responsible for ensuring your content is legal and properly licensed.</p>
 
-        <h3>23. Electronic Acceptance & Execution</h3>
-        <p>BY CLICKING “I AGREE” OR ACCEPTING THIS AGREEMENT ELECTRONICALLY:</p>
-        <ul>
-            <li>You confirm acceptance of all terms</li>
-            <li>This constitutes a legally binding agreement</li>
-            <li>It has the same effect as a handwritten signature</li>
-        </ul>
+            <p>If you upload infringing content, FlareTechMusic may:</p>
+            <ul>
+            <li>- Remove the content</li>
+            <li>- Suspend your account</li>
+            <li>- Withhold royalties</li>
+            <li>- Take legal action</li>
+            </ul>
 
-        <p>Electronic records shall be admissible as evidence.</p>
+            <p>FlareTechMusic is not liable for user-uploaded content.</p>
+
+            <h3>12. System Limitations</h3>
+            <ul>
+            <li>- Digital platforms are not perfect</li>
+            <li>- Errors, delays, or data differences may occur</li>
+            </ul>
+
+            <p>FlareTechMusic is not liable for:</p>
+            <ul>
+            <li>- Reporting discrepancies</li>
+            <li>- Technical issues</li>
+            <li>- Third-party system failures</li>
+            </ul>
+
+            <h3>13. Account Suspension or Termination</h3>
+            <p>FlareTechMusic may suspend or terminate your account if you:</p>
+            <ul>
+            <li>- Break these rules</li>
+            <li>- Engage in fraud</li>
+            <li>- Misuse the platform</li>
+            </ul>
+
+            <p>You may also close your account at any time.</p>
+
+            <h3>14. Limitation of Liability</h3>
+            <p>FlareTechMusic is not liable for:</p>
+            <ul>
+            <li>- Loss of income, data, or opportunities</li>
+            <li>- Third-party platform actions</li>
+            <li>- Delays or system issues</li>
+            </ul>
+
+            <p>Our total liability is limited to the amount paid to you in the last 12 months.</p>
+
+            <h3>15. Indemnity</h3>
+            <p>You agree to protect FlareTechMusic from any claims, losses, or damages caused by:</p>
+            <ul>
+            <li>- Your content</li>
+            <li>- Your actions on the platform</li>
+            <li>- Your violation of this Agreement</li>
+            </ul>
+
+            <h3>16. Changes to This Agreement</h3>
+            <p>We may update this Agreement from time to time. Continued use of the platform means you accept any updates.</p>
+
+            <h3>17. Governing Law</h3>
+            <p>This Agreement is governed by the laws of the Federal Republic of Nigeria. Disputes will first be resolved amicably, then through arbitration in Lagos, Nigeria if necessary.</p>
+
+            <h3>18. Contact Us</h3>
+            <p>Email: support@flaretechmusic.com</p>
+            <p>Website: www.flaretechmusic.com</p>
 
         </div>
        
@@ -525,7 +501,7 @@
 
       <!-- Footer -->
       <div class="modal-footer bg-white border-top px-4 py-3 d-flex justify-content-between">
-        <p>Please read all terms carefully</p>
+        <p>Please read all end user aggreement carefully</p>
         <button type="button" class="btn btn-primary px-4" data-bs-dismiss="modal">
           I Understand
         </button>
@@ -544,7 +520,7 @@
       <!-- Header -->
       <div class="modal-header bg-white border-bottom px-4 py-3">
         <div class="w-100 text-center">
-          <h5 class="modal-title fw-bold mb-0">Terms & Conditions</h5>
+          <h5 class="modal-title fw-bold mb-0">PRIVACY POLICY</h5>
         </div>
         <button type="button" class="btn-close position-absolute end-0 me-3" data-bs-dismiss="modal"></button>
       </div>
@@ -558,8 +534,8 @@
 
             <p style="text-align:center;" class="mt-3"><strong>FlareTechMusic – Music Distribution and Licensing Platform</strong></p>
 
-            <p><strong>Effective Date:</strong> __________________</p>
-            <p><strong>Last Updated:</strong> __________________</p>
+            <!-- <p><strong>Effective Date:</strong> __________________</p>
+            <p><strong>Last Updated:</strong> __________________</p> -->
 
             <hr />
 
